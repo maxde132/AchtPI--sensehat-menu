@@ -1,30 +1,32 @@
-AchtPI
-This is a menu system for the raspberry pi sense hat. Here's how to set it up:
+# AchtPI
 
-step 1:
-  get a raspberry pi set-up (its faster if you use pi os lite rather than a desktop environment)
-  download the script using git clone or downloading the zip
-  get 8 python scripts/games that work with the sense hat and closes itself rather than repeating
-  Optional: get 8 rgb format color codes ex. (255, 0, 255)
-  
-step 2:
-  edit the code via nano. nano AchtPI--sensehat-menu/main.py
-  replace Insert_Python_file_here with your python files's filepath
-  Optional: add colors at the bottom where there are rgb values, replace them with your own
-  
-step 3:
-  exit the nano editor by ctrl-x y ENTER to save
-  test the script by typing python3 AchtPI--sensehat-menu/main.py
-  It shoud first apper with a big red cicrcle. 
-  If the joystick is pressed and then pulled down it will start the other python script. 
-  left/right arrow keys to switch between scripts/colors
-  
-step 4:
-  enjoy it!
-Here's how to take it further:
-  1. Make the script run on boot using crontab or something else
-  2. add more/less scripts
-  3. change or delete scrolling text at the top. (It can only be acht when there's eight scripts)
-  4. change button colors
-  5. change joystick inputs to your liking (instead of left/right to change button you can do up/down)
-  6. have fun
+This is a menu system for the Raspberry Pi Sense HAT. Here's how to set it up:
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+
+
+## Installation
+1. Get a Raspberry Pi set-up (it's faster if you use Pi OS Lite rather than a desktop environment).
+2. Download the script using `git clone` or by downloading the zip file.
+3. Get 8 Python scripts/games that work with the Sense HAT and close themselves rather than repeating.
+4. (Optional) Get 8 RGB format color codes (e.g., `255, 0, 255`).
+
+### Step-by-Step Instructions
+1. Edit the code via nano: `nano AchtPI--sensehat-menu/main.py`
+2. Replace `Insert_Python_file_here` with your Python file's filepath.
+3. (Optional) Add colors at the bottom where there are RGB values, replace them with your own.
+4. Exit the nano editor by pressing `ctrl-x`, then `y`, and `ENTER` to save.
+5. Test the script by typing `python3 AchtPI--sensehat-menu/main.py`.
+
+## Usage
+- The script should first appear with a big red circle.
+- Use the joystick to navigate: press and pull down to start the other Python script.
+- Use the left/right arrow keys to switch between scripts/colors.
+
+## Features
+- Customizable scripts and colors.
+- Easy navigation using the joystick.
+
